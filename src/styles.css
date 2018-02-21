@@ -1,1 +1,68 @@
 /* You can add global styles to this file, and also import other style files */
+.main{
+  justify-content: center;
+  margin-top: 50px;
+}
+.jumbotron{
+  /* background-image: url('/assets/images/bg2.jpg');
+  background-size: 100% auto;
+  filter: blur(1px); */
+  /* background: #457fca;
+  background: -webkit-linear-gradient(to left, #5691c8, #457fca);
+  background: linear-gradient(to left, #5691c8, #457fca);  */
+
+
+}
+.input-group{
+  margin: 10px 0;
+}
+.row{
+  padding: 0 15px;
+}
+.sun{
+  color: yellow;
+}
+.nav-tabs{
+  margin-top: 20px;
+}
+.weather{
+/* background-image: url('/assets/images/Sun.png'); */
+/* background-size: 100% auto; */
+border-radius: 3px;
+}
+.info{
+  background: lightgrey;
+  color: #fff;
+}
+.temp-box{
+
+  text-align: right;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 25px;
+}
+.temp{
+  color: #fff;
+  font-size: 26px;
+  padding: 20px 0;
+  display: inline-block;
+}
+.text-city{
+  color: #fff;
+  font-size: 22px;
+  padding-top: 25px;
+  margin: 0;
+}
+.text-wind{
+  color: #fff;
+}
+.info-text{
+  color: #fff;
+}
+.nav-item a{
+  text-decoration: none;
+  color: #fff;
+}
+.time{
+  color: #fff;
+}

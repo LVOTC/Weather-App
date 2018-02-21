@@ -1,0 +1,29 @@
+<div class="row main">
+  <div class="col-md-4">
+    <div class="container">
+      <div class="jumbotron">
+        <p class="time">{{clock | async | date:'mediumTime'}}</p>
+        <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Key</span>
+        </div>
+        <input type="text" class="form-control" [(ngModel)]="str" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+      </div>
+      <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">City</span>
+        </div>
+        <input type="text" class="form-control search" aria-label="Large"
+         aria-describedby="inputGroup-sizing-sm" value="Vilnius" (keyup.enter)="onSearch()">
+         <div class="input-group-append">
+           <button class="btn btn-outline-secondary" (click)="onSearch()" type="button">Push</button>
+         </div>
+      </div>
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      </ul>
+      <div class="tab-content" id="myTabContent">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
